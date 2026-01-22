@@ -1,132 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vital Noble Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-/* GENERAL PAGE */
-body{
-    margin:0;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    background:#f5f7f4;
-    color:#333;
-}
-
-/* HEADER */
-header{
-    background: linear-gradient(135deg, #1e7f43, #145c32);
-    color:#ffffff;
-    padding:25px;
-    text-align:center;
-}
-header img{
-    width:90px;
-    margin-bottom:10px;
-}
-header h1{
-    margin:5px 0;
-}
-header p{
-    margin:0;
-    font-size:15px;
-}
-
-/* NAVIGATION */
-nav{
-    background:#d4af37; /* gold */
-    padding:12px;
-    text-align:center;
-}
-nav a{
-    color:#1e7f43;
-    margin:0 10px;
-    text-decoration:none;
-    font-weight:bold;
-}
-nav a:hover{
-    color:#000;
-    text-decoration:underline;
-}
-
-/* MAIN CONTENT */
-.container{
-    max-width:1100px;
-    margin:auto;
-    padding:20px;
-}
-
-/* HEADINGS */
-h2{
-    color:#1e7f43;
-    border-left:6px solid #d4af37;
-    padding-left:10px;
-    margin-top:40px;
-}
-
-/* CONTENT SECTIONS */
-section{
-    background:#ffffff;
-    padding:18px;
-    margin-bottom:25px;
-    border-radius:8px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.08);
-}
-
-/* STAFF SECTION */
-.staff img{
-    width:140px;
-    height:140px;
-    border-radius:50%;
-    object-fit:cover;
-    float:left;
-    margin-right:15px;
-    border:4px solid #d4af37;
-}
-
-/* TABLE (SCHOOL FEES) */
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
-th, td{
-    border:1px solid #ccc;
-    padding:12px;
-    text-align:center;
-}
-th{
-    background:#1e7f43;
-    color:#ffffff;
-}
-
-/* GALLERY */
-.gallery img{
-    width:30%;
-    margin:1%;
-    border-radius:8px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.15);
-}
-
-/* MAP */
-iframe{
-    width:100%;
-    height:320px;
-    border:0;
-    border-radius:8px;
-}
-
-/* FOOTER */
-footer{
-    background:#145c32;
-    color:#ffffff;
-    text-align:center;
-    padding:18px;
-    margin-top:40px;
-    font-size:14px;
-}
-
-/* CLEAR FLOAT */
-.clear{
-    clear:both;
-}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f9}
+header{background:#0b4da2;color:#fff;padding:20px;text-align:center}
+header img{width:90px;margin-bottom:10px}
+nav{background:#083b7a;padding:10px;text-align:center}
+nav a{color:#fff;margin:0 8px;text-decoration:none;font-weight:bold}
+nav a:hover{text-decoration:underline}
+.banner img{width:100%;max-height:350px;object-fit:cover}
+.container{max-width:1000px;margin:auto;padding:20px}
+h2{color:#0b4da2;margin-top:40px}
+section{background:#fff;padding:15px;margin-bottom:20px;border-radius:6px}
+.staff img{width:140px;height:140px;border-radius:50%;object-fit:cover;float:left;margin-right:15px}
+.gallery img{width:30%;margin:1%}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #0b4da2;padding:10px}
+th{background:#0b4da2;color:#fff}
+footer{background:#0b4da2;color:#fff;text-align:center;padding:15px;margin-top:40px}
+iframe{width:100%;height:300px;border:0}
+.clear{clear:both}
 </style>
+</head>
+
 <body>
 
+<header>
 <img src="images/logo.png" alt="Vital Noble Academy Logo">
 <h1>Vital Noble Academy</h1>
 <p>Nursery • Primary • Junior Secondary • Senior Secondary</p>
@@ -145,6 +48,11 @@ footer{
 <a href="#contact">Contact Us</a>
 </nav>
 
+<div class="banner">
+<img src="images/banner.jpg" alt="Vital Noble Academy Banner">
+</div>
+
+<div class="container" id="home">
 <h2>Welcome to Vital Noble Academy</h2>
 <p>
 Established in <strong>2013</strong>, Vital Noble Academy is committed to providing quality education
