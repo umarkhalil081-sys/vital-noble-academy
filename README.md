@@ -7,21 +7,21 @@
 
 <style>
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f9}
-header{background:#0b4da2;color:#fff;padding:20px;text-align:center}
+header{background:#0b4da2;color:#ADD8E6;padding:20px;text-align:center}
 header img{width:90px;margin-bottom:10px}
 nav{background:#083b7a;padding:10px;text-align:center}
-nav a{color:#fff;margin:0 8px;text-decoration:none;font-weight:bold}
+nav a{color:#ADD8E6;margin:0 8px;text-decoration:none;font-weight:bold}
 nav a:hover{text-decoration:underline}
 .banner img{width:100%;max-height:350px;object-fit:cover}
 .container{max-width:1000px;margin:auto;padding:20px}
 h2{color:#0b4da2;margin-top:40px}
-section{background:#fff;padding:15px;margin-bottom:20px;border-radius:6px}
+section{background:#ADD8E6;padding:15px;margin-bottom:20px;border-radius:6px}
 .staff img{width:140px;height:140px;border-radius:50%;object-fit:cover;float:left;margin-right:15px}
 .gallery img{width:30%;margin:1%}
 table{width:100%;border-collapse:collapse}
 th,td{border:1px solid #0b4da2;padding:10px}
-th{background:#0b4da2;color:#fff}
-footer{background:#0b4da2;color:#fff;text-align:center;padding:15px;margin-top:40px}
+th{background:#0b4da2;color:#ADD8E6}
+footer{background:#0b4da2;color:#ADD8E6;text-align:center;padding:15px;margin-top:40px}
 iframe{width:100%;height:300px;border:0}
 .clear{clear:both}
 </style>
@@ -47,10 +47,6 @@ iframe{width:100%;height:300px;border:0}
 <a href="#gallery">Gallery</a>
 <a href="#contact">Contact Us</a>
 </nav>
-
-<div class="banner">
-<img src="images/banner.jpg" alt="Vital Noble Academy Banner">
-</div>
 
 <div class="container" id="home">
 <h2>Welcome to Vital Noble Academy</h2>
