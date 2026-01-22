@@ -1,19 +1,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ADD8E6}
-header{background:#0b4da2;color:#ADD8E6;padding:20px;text-align:center}
+header{background:#ADD8E6;color:#ADD8E6;padding:20px;text-align:center}
 header img{width:90px;margin-bottom:10px}
 nav{background:#ADD8E6;padding:10px;text-align:center}
 nav a{color:#ADD8E6;margin:0 8px;text-decoration:none;font-weight:bold}
 nav a:hover{text-decoration:underline}
 h2{color:#ADD8E6;margin-top:40px}
-section{background:##ADD8E6;padding:15px;margin-bottom:20px;border-radius:6px}
+section{background:#ADD8E6;padding:15px;margin-bottom:20px;border-radius:6px}
 .staff img{width:140px;height:140px;border-radius:50%;object-fit:cover;float:left;margin-right:15px}
 .gallery img{width:30%;margin:1%}
 table{width:300%;border-collapse:collapse}
-th,td{border:1px solid #0b4da2;padding:10px}
-th{background:#0b4da2;color:#ADD8E6}
-footer{background:#808080;color:#ADD8E6;text-align:center;padding:15px;margin-top:40px}
+th,td{border:1px solid #ADD8E6;padding:10px}
+th{background:#ADD8E6;color:#ADD8E6}
+footer{background:#ADD8E6;color:#ADD8E6;text-align:center;padding:15px;margin-top:40px}
 iframe{width:100%;height:300px;border:0}
 .clear{clear:both}
 </style>
@@ -21,7 +21,6 @@ iframe{width:100%;height:300px;border:0}
 
 <body>
 
-<header>
 <img src="images/logo.png" alt="Vital Noble Academy Logo">
 <h1>Vital Noble Academy</h1>
 <p>Nursery • Primary • Junior Secondary • Senior Secondary</p>
@@ -40,11 +39,6 @@ iframe{width:100%;height:300px;border:0}
 <a href="#contact">Contact Us</a>
 </nav>
 
-<div class="banner">
-<img src="images/banner.jpg" alt="Vital Noble Academy Banner">
-</div>
-
-<div class="container" id="home">
 <h2>Welcome to Vital Noble Academy</h2>
 <p>
 Established in <strong>2013</strong>, Vital Noble Academy is committed to providing quality education
