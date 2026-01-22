@@ -22,9 +22,7 @@ iframe{width:100%;height:300px;border:0}
 
 <body>
 
-<header>
 <img src="images/logo.png" alt="Vital Noble Academy Logo">
-<h1>Vital Noble Academy</h1>
 <p>Nursery • Primary • Junior Secondary • Senior Secondary</p>
 </header>
 
