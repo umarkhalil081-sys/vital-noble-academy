@@ -1,24 +1,130 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ADD8E6}
-header{background:#ADD8E6;color:#ADD8E6;padding:20px;text-align:center}
-header img{width:90px;margin-bottom:10px}
-nav{background:#ADD8E6;padding:10px;text-align:center}
-nav a{color:#ADD8E6;margin:0 8px;text-decoration:none;font-weight:bold}
-nav a:hover{text-decoration:underline}
-h2{color:#ADD8E6;margin-top:40px}
-section{background:#ADD8E6;padding:15px;margin-bottom:20px;border-radius:6px}
-.staff img{width:140px;height:140px;border-radius:50%;object-fit:cover;float:left;margin-right:15px}
-.gallery img{width:30%;margin:1%}
-table{width:300%;border-collapse:collapse}
-th,td{border:1px solid #ADD8E6;padding:10px}
-th{background:#ADD8E6;color:#ADD8E6}
-footer{background:#ADD8E6;color:#ADD8E6;text-align:center;padding:15px;margin-top:40px}
-iframe{width:100%;height:300px;border:0}
-.clear{clear:both}
-</style>
-</head>
+/* GENERAL PAGE */
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    background:#f5f7f4;
+    color:#333;
+}
 
+/* HEADER */
+header{
+    background: linear-gradient(135deg, #1e7f43, #145c32);
+    color:#ffffff;
+    padding:25px;
+    text-align:center;
+}
+header img{
+    width:90px;
+    margin-bottom:10px;
+}
+header h1{
+    margin:5px 0;
+}
+header p{
+    margin:0;
+    font-size:15px;
+}
+
+/* NAVIGATION */
+nav{
+    background:#d4af37; /* gold */
+    padding:12px;
+    text-align:center;
+}
+nav a{
+    color:#1e7f43;
+    margin:0 10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#000;
+    text-decoration:underline;
+}
+
+/* MAIN CONTENT */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+/* HEADINGS */
+h2{
+    color:#1e7f43;
+    border-left:6px solid #d4af37;
+    padding-left:10px;
+    margin-top:40px;
+}
+
+/* CONTENT SECTIONS */
+section{
+    background:#ffffff;
+    padding:18px;
+    margin-bottom:25px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* STAFF SECTION */
+.staff img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    float:left;
+    margin-right:15px;
+    border:4px solid #d4af37;
+}
+
+/* TABLE (SCHOOL FEES) */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+th, td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+th{
+    background:#1e7f43;
+    color:#ffffff;
+}
+
+/* GALLERY */
+.gallery img{
+    width:30%;
+    margin:1%;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* MAP */
+iframe{
+    width:100%;
+    height:320px;
+    border:0;
+    border-radius:8px;
+}
+
+/* FOOTER */
+footer{
+    background:#145c32;
+    color:#ffffff;
+    text-align:center;
+    padding:18px;
+    margin-top:40px;
+    font-size:14px;
+}
+
+/* CLEAR FLOAT */
+.clear{
+    clear:both;
+}
+</style>
 <body>
 
 <img src="images/logo.png" alt="Vital Noble Academy Logo">
